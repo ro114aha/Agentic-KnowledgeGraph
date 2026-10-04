@@ -3,6 +3,9 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "features": {
+    "ghcr.io/devcontainers/features/powershell:1": {}
+  },
   "forwardPorts": ["neo4j:7474", "neo4j:7687"],
   "portsAttributes": {
     "neo4j:7474": { "label": "Neo4j Browser" },
